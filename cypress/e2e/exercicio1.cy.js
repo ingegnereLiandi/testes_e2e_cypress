@@ -40,3 +40,6 @@ describe('Visite a página de /home do Adopet;', ()=>{
     cy.get('.header__home').click();
     })
 })
+
+
+
