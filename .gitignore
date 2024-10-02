@@ -1,6 +1,7 @@
 node_modules/
 results/
 videos/
+suport/
 cypress.config.js
 package_lock.json
 package.json

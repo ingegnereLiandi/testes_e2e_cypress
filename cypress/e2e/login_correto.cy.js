@@ -9,12 +9,8 @@ describe('Pagina de Cadastro', ()=>{
 
 
     it('Deve preencher os campos do login corretamente e autenticar o usuario na pagina',()=>{
-
-
-        cy.get('[data-test="input-loginEmail"]').type('michelfoucault@ipa.com');
-        cy.get('[data-test="input-loginPassword"]').type('12deOliveira4');
-        cy.get('[data-test="submit-button"]').click();  
-    
+      cy.login_correto('michelfoucault@ipa.com','12deOliveira4');
+       
       })
     
     })
