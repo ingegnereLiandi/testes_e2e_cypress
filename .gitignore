@@ -5,3 +5,4 @@ suport/
 cypress.config.js
 package_lock.json
 package.json
+cypress.env.json
